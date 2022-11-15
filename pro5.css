@@ -1,0 +1,45 @@
+body{
+    color: rgba(56, 150, 179, 0.753);
+    font-family: 'Orbitron', sans-serif;
+    margin: 0px;
+    text-align: center;
+}
+
+.container{
+    background-image: url(galaxy.gif);
+    background-size: cover;
+    padding-bottom: 15%;
+}
+
+#main-logo{
+    width: 30%;
+}
+
+.container h1{
+    font-size: 3rem;
+    text-shadow: 0px 2px 2px  white;
+}
+
+.btn{
+    background-color: white;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+    font-family: inherit;
+    font-size: 1rem;
+    padding: 6px 12px;
+    margin-top: 2%;
+}
+.btn:hover{
+    background-color: rgba(56, 150, 179, 0.753);
+    color: white;
+}
+
+.underline{
+    border-bottom: 3px solid white;
+}
+
+.tac{
+    margin: 3% auto;
+    font-size: 2rem;
+}
